@@ -75,6 +75,7 @@ call s:highlight('PmenuThumb', s:white, s:gray)
 
 call s:highlight('Folded', s:gray, 'NONE')
 call s:highlight('FoldColumn', s:dark_gray, 'NONE')
+call s:highlight('SignColumn', s:dark_gray, 'NONE')
 
 call s:highlight('WildMenu', s:white, s:gray)
 call s:highlight('StatusLine', s:white, s:dark_gray, 'cterm=NONE gui=NONE')
