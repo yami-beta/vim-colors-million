@@ -4,7 +4,7 @@ let s:black     = [ '#161821', '234' ]
 let s:white     = [ '#c0c6c9', '251' ]
 let s:red       = [ '#c51b13', '160' ]
 let s:blue      = [ '#126ef5', '27' ]
-let s:yellow    = [ '#f8c42d', '220' ]
+let s:yellow    = [ '#dbab29', '184' ]
 let s:green     = [ '#418353', '29' ]
 let s:magenta   = [ '#f73e90', '198' ]
 let s:cyan      = [ '#23a7b9', '37' ]
@@ -29,4 +29,4 @@ let s:p.tabline.right   = copy(s:p.tabline.tabsel)
 let s:p.normal.error    = [ [ s:white, s:red ] ]
 let s:p.normal.warning  = [ [ s:black, s:yellow ] ]
 
-let g:lightline#colorscheme#million#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#nouvelle_tricolor#palette = lightline#colorscheme#flatten(s:p)

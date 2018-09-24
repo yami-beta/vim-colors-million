@@ -1,1 +1,1 @@
-# vim-colors-million
+# vim-colors-nouvelle-tricolor

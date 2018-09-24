@@ -1,10 +1,10 @@
-" Name:    million.vim
+" Name:    nouvelle-tricolor.vim
 " Author:  yami-beta
 " License: The MIT License (MIT)
 
 scriptencoding utf-8
 
-let g:colors_name = 'million'
+let g:colors_name = 'nouvelle-tricolor'
 set background=dark
 highlight clear
 if exists("syntax_on")
@@ -15,7 +15,7 @@ let s:black     = [ '#161821', '234' ]
 let s:white     = [ '#c0c6c9', '251' ]
 let s:red       = [ '#c51b13', '160' ]
 let s:blue      = [ '#126ef5', '27' ]
-let s:yellow    = [ '#f8c42d', '220' ]
+let s:yellow    = [ '#dbab29', '184' ]
 let s:green     = [ '#418353', '29' ]
 let s:magenta   = [ '#f73e90', '198' ]
 let s:cyan      = [ '#23a7b9', '37' ]
@@ -48,7 +48,7 @@ call s:highlight('Function', s:magenta, '')
 call s:highlight('PreProc', s:blue, '')
 call s:highlight('Special', s:blue, '')
 call s:highlight('Identifier', s:magenta, '')
-call s:highlight('Type', s:green, '')
+call s:highlight('Type', s:yellow, '')
 call s:highlight('Statement', s:blue, '')
 call s:highlight('Constant', s:cyan, '')
 hi! link Title Constant
