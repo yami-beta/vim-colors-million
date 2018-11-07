@@ -101,6 +101,9 @@ call s:highlight('Question', s:yellow, '')
 call s:highlight('MoreMsg', s:gray, '', 'cterm=bold gui=bold')
 call s:highlight('ModeMsg', s:gray, '', 'cterm=bold gui=bold')
 
+" git
+call s:highlight('gitcommitSummary', s:magenta, '')
+
 " HTML
 call s:highlight('htmlLink', s:blue, '', 'cterm=underline gui=underline')
 call s:highlight('htmlStatement', s:blue, '')
