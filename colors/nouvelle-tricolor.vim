@@ -23,6 +23,26 @@ let s:gray      = [ '#7b7c7d', '244' ]
 let s:dark_gray = [ '#454341', '238' ]
 let s:dark_blue = [ '#1f4c86', '24' ]
 
+" terminal
+let g:terminal_ansi_colors = [
+\ s:black[0],
+\ s:red[0],
+\ s:green[0],
+\ s:yellow[0],
+\ s:blue[0],
+\ s:magenta[0],
+\ s:cyan[0],
+\ s:white[0],
+\ '#2a2d3f',
+\ '#e31f15',
+\ '#4fa166',
+\ '#e6b32b',
+\ '#1272ff',
+\ '#ff4094',
+\ '#28c2d7',
+\ '#dce3e7',
+\ ]
+
 function! s:highlight(group, fg, bg, ...)
   let opts = get(a:, 1, '')
   let highlight_ary = []
